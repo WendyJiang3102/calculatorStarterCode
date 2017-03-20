@@ -6,40 +6,44 @@
 function divide(x,y)
 {
 	//Write your code below this line
-	
+if (y===0){
+    alert("undefined!");
+}
+	var difference= x/y;
+	return difference;
 }
 
 function multiply(x,y)
 {
-	
+	return x*y;
 }
 
 function subtract(x,y)
 {
-	
+	return x-y;
 }
 
 function add(x,y)
 {
-	
+	return x+y;
 }
 
 function power(x,y)
 {
-	
+	return Math.pow(x,y);
 }
 
 function square_root(x)
 {
-	
+	return Math.sqrt(x);
 }
 
 function logBase10(x)
 {
-	
+	return Math.log10(x);
 }
 
 function generateRandomNumber()
 {
-	
+	return Math.random()*10;
 }
